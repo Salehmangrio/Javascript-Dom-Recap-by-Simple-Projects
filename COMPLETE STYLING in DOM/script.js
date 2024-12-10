@@ -1,13 +1,9 @@
-
-
-// Get elements from HTML
+// Getting elecments from index.html
 const add = document.getElementById("add");
 const remove = document.getElementById("remove")
 const statusFrnd = document.querySelector("#card h5")
 
-
 // Event listeners for add and remove buttons
-
 add.addEventListener("click",()=>{
     statusFrnd.innerHTML="Friend";
     statusFrnd.style.color="green"
@@ -16,6 +12,8 @@ remove.addEventListener("click",()=>{
     statusFrnd.innerHTML="Stranger";
     statusFrnd.style.color="red"
 })
+
+/*STYLING PORTION START FROM HERE*/
 
 // Apply styles to universal selector (*)
 document.querySelectorAll('*').forEach((el) => {

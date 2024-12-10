@@ -1,6 +1,6 @@
 // JAVASCRIPT DOM CONCEPTS
 
-//1 Accessing DOM elements from index.js 
+//1 Accessing DOM elements from index.html
 const myData=document.getElementById("data");
 const body=document.getElementById("body");
 
