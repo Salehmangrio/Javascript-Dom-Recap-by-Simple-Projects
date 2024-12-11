@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+#submitbtn{
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 2px red;
+}
+h1{
+    color: red;
+}
+#submitbtn:hover{
+    box-shadow: 0 0 10px red;
+}
+input{
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    height: 18px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    outline: none;
+}
